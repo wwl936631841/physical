@@ -1,0 +1,201 @@
+page{
+  background-color: rgb(240, 244, 247)
+}
+
+.check , .private{
+  margin: 20rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+}
+
+.check .from,.check .to {
+  display: flex;
+  border-bottom: 1px solid #eee;
+}
+
+.check .from input , .check .to input{
+  flex-basis: 550rpx;
+  position: relative;
+  font-size: 28rpx;
+  margin:10rpx 0 10rpx 0rpx;
+  padding-left: 100rpx;
+  line-height:100rpx;
+  height:80rpx;
+  box-sizing: border-box;
+  border-right: 1px solid #eee;
+}
+
+.check .from input text , .check .to input text{
+  position: absolute;
+  left: 30rpx;
+  top: 10rpx;
+  border-radius: 50%;
+  background-color: rgb(56, 186, 93);
+  color: #fff;
+  width:50rpx;
+  height:50rpx;
+  line-height:50rpx;
+  text-align: center;
+}
+
+.check .to input text{
+  background-color: rgb(214, 74, 71)
+}
+
+.check .from .address , .check .to .address{
+  width:160rpx;
+  line-height:100rpx;
+  font-size:28rpx;
+  color:rgb(242, 102, 32);
+  text-align:center;
+}
+
+.check .information , 
+.check .method{
+  display: flex;
+  justify-content: space-between;
+  line-height: 100rpx;
+  height: 100rpx;
+  border-bottom: 1px solid #eee;
+}
+
+.check .information .left , 
+.check .method .left{
+  font-size: 28rpx;
+  color: #333;
+  padding-left: 30rpx;
+  font-weight: bold;
+}
+
+.check .information .right,
+.check .method .right{
+  color: #aaa;
+  font-size: 28rpx;
+}
+
+.check .method .right text:first-child{
+  color: #333;
+  font-weight: bold;
+}
+
+.check .method .right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  line-height: 36rpx;
+  padding-right: 30rpx;
+}
+
+/* 第二部分 */
+.private .expect , 
+.private .remark , 
+.private .msgNotice{
+  display: flex;
+  justify-content: space-between;
+  line-height: 100rpx;
+  height: 100rpx;
+  border-bottom: 1px solid #eee;
+}
+
+.private .expect .left , 
+.private .remark .left , 
+.private .msgNotice .left {
+  font-size: 28rpx;
+  color: #333;
+  padding-left: 30rpx;
+  font-weight: bold;
+}
+
+.private .expect .right , 
+.private .remark .right , 
+.private .msgNotice .right{
+  color: #aaa;
+  font-size: 28rpx;
+}
+
+.private .expect .right{
+  display: flex;
+  align-items: center;
+}
+
+.private .expect .right picker{
+  text-align: right;
+}
+
+.private .remark .right{
+  display: flex;
+  line-height: 100rpx;
+  align-items: center;
+}
+
+.private .remark .right input{
+  text-align: right;
+}
+
+.private .msgNotice .left{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  line-height: 36rpx;
+}
+
+.private .msgNotice .right{
+  padding-right: 20rpx;
+}
+
+.private .msgNotice .left text:last-child{
+  color: #aaa;
+}
+
+/* 协议 */
+.sel{
+  line-height: 40rpx;
+  padding-left: 20rpx;
+}
+
+.checkbox{
+  font-size: 28rpx;
+}
+
+.checkbox text{
+  color:rgb(242, 102, 32);
+}
+
+/* 下单 */
+.order {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx;
+  align-items: center;
+  background-color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.order .left{
+  font-size: 28rpx;
+  color: #333;
+}
+
+.order .left .predict{
+  display: flex;
+}
+
+.order .left .predict .money{
+  color: rgb(242, 102, 32);
+  font-size: 36rpx;
+}
+
+.order .left .title{
+  color: #999;
+}
+
+.order .right .goOrder{
+  color: #fff;
+  width: 200rpx;
+  background-color: rgb(242, 102, 32);
+}

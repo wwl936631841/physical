@@ -1,0 +1,17 @@
+.swiper-tab{
+  display:flex;
+  justify-content:space-around;
+  font-size:28rpx;
+  line-height:88rpx;
+  border-bottom:1px solid #eee;
+}
+
+.swiper-tab .active{
+  color: rgb(242, 102, 32);
+  border-bottom:2px solid rgb(242, 102, 32);
+}
+
+.move{
+  height: calc( 100vh - 94rpx );
+  background-color: rgb(241, 245, 248)
+}

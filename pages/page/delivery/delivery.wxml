@@ -1,0 +1,75 @@
+<view class='check'>
+  <view class='from'>
+    <input type='text' catchtap='newContact' placeholder='从哪里寄'>
+      <text>寄</text>
+    </input>
+    <text class='address' catchtap='sendAdd'>地址簿</text>
+  </view>
+  <view class='to'>
+    <input type='text' catchtap='newRecipients' placeholder='寄到哪里'>
+      <text>收</text>
+    </input>
+    <text class='address' catchtap='direction'>地址簿</text>
+  </view>
+  <view class='information'>
+    <text class='left'>物品信息</text>
+    <view class='right'>
+      <text>预估重量/物品类型/数量</text>
+      <text class='iconfont icon_right'></text>
+    </view>
+  </view>
+  <view class='method'>
+    <text class='left'>付费方式</text>
+    <view class='right' bindtap='selectMethod'>
+      <text>{{ method }}</text>
+      <text wx:if="{{ method=='寄付' }}">快递员称重后在平台支付</text>
+      <text wx:else>快递到达后由收货人支付</text>
+    </view>
+  </view>
+</view>
+<view class='private'>
+  <view class='expect'>
+    <text class='left'>期望上门</text>
+    <view class='right'>
+      <!-- <text>请选择期望上门时间</text> -->
+      <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+        <input value='{{time}}' placeholder='请选择期望上门时间'/>
+      </picker>
+      <text class='iconfont icon_right'></text>
+    </view>
+  </view>
+  <view class='remark'>
+    <text class='left'>备注信息</text>
+    <view class='right'>
+      <input type='text' placeholder='选填，留言给快递员'></input>
+      <text class='iconfont icon_right'></text>
+    </view>
+  </view>
+  <view class='msgNotice'>
+    <view class='left'>
+      <text>短信通知</text>
+      <text>寄出后短信通知收件人</text>
+    </view>
+    <view class='right'>
+      <switch bindchange="switchChange"/>
+    </view>
+  </view>
+</view>
+<checkbox-group class="sel" bindchange="checkboxChange">
+  <label class="checkbox">
+    <checkbox class='select' checked=""/>我已阅读并同意<text catchtap='protocol'>《服务协议》</text>
+  </label>
+</checkbox-group>
+<view class='order'>
+  <view class='left'>
+    <view class='predict'>
+      预计： <view class='money'>
+              ￥<text>--</text> 
+            </view>
+    </view>
+    <text class='title'>以快递员上门称重计费为准</text>
+  </view>
+  <view class='right'>
+    <button class='goOrder'>下单</button>
+  </view>
+</view>

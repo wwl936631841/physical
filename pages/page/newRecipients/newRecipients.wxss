@@ -1,0 +1,84 @@
+page{
+  background-color: rgb(240, 244, 247)
+}
+
+.new{
+  margin: 20rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding:0 20rpx;
+}
+
+.new >view{
+  display: flex;
+  border-bottom: 1px solid #eee;
+}
+
+.new >view >text{
+  line-height:100rpx;
+  width:180rpx;
+  font-size:32rpx;
+  color:#333;
+}
+
+.new >view >input{
+  width: 64%;
+  position: relative;
+  font-size: 28rpx;
+  margin:10rpx 0 10rpx 0rpx;
+  padding-left: 30rpx;
+  line-height:100rpx;
+  height:80rpx;
+  box-sizing: border-box;
+}
+
+.new .quyu .icon_address{
+  font-size: 60rpx;
+  width: 50rpx;
+  padding-right: 0
+}
+
+/* 地址选择器 */
+.new .quyu picker{
+  width: 64%;
+}
+
+.new .quyu picker .picker{
+  height:100rpx;
+  line-height:100rpx;
+  font-size:28rpx;
+  padding-left:30rpx;
+}
+
+.directory{
+  display: flex;
+  margin: 20rpx;
+  background-color: #fff;
+  border-radius: 10rpx;
+  padding:0 20rpx;
+  justify-content: space-between;
+  line-height: 100rpx;
+  font-size: 32rpx;
+}
+
+/* 进入地址簿 */
+.enter{
+  font-size: 32rpx;
+  color: #666;
+  text-align:center;
+  padding:40rpx;
+}
+
+.enter >text{
+  color: rgb(242, 102, 32);
+}
+
+/* 保存 */
+.saveAddress{
+  position: fixed;
+  margin: 20rpx;
+  color: #fff;
+  bottom: 10rpx;
+  width: 95%;
+  background-color: rgb(242, 102, 32);
+}

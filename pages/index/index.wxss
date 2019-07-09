@@ -1,0 +1,69 @@
+/**index.wxss**/
+.item {
+  width: 100%;
+  height: 100rpx;
+  /* background-color: #f10215; */
+}
+page{
+  background-color: rgb(241, 245, 248)
+}
+
+.item image{
+  width: 100%;
+  height: 300rpx;
+}
+
+page .img{
+  height: 300rpx;
+}
+
+.list{
+  width: auto;
+  height: 380rpx;
+  background-color: #fff;
+  border-radius: 20rpx;
+  margin: 30rpx;
+  box-sizing: border-box;
+}
+
+.list .top{
+  line-height: 80rpx;
+  font-size: 28rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 0 20rpx;
+  color: #aaa;
+  border-bottom: 1px solid #eee;
+}
+
+.list .top text:first-child{
+  color: rgb(160, 135, 111);
+  font-weight: bold;
+  font-size: 30rpx;
+  margin-right: 10rpx;
+}
+
+.list .bottom{
+  height: 296rpx;
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+}
+
+.list .bottom >view{
+  flex-basis: 50%;
+  display: flex;
+  padding-left: 60rpx;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.list .bottom >view:nth-child(2n+1){
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.list .bottom >view:nth-child(2){
+  border-bottom: 1px solid #eee;
+}

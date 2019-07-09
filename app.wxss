@@ -1,0 +1,102 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100rpx 0;
+  box-sizing: border-box;
+} 
+
+@font-face {
+  font-family: 'iconfont';  /* project id 1260803 */
+  src: url('//at.alicdn.com/t/font_1260803_xjy7bbl98mj.eot');
+  src: url('//at.alicdn.com/t/font_1260803_xjy7bbl98mj.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1260803_xjy7bbl98mj.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1260803_xjy7bbl98mj.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1260803_xjy7bbl98mj.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1260803_xjy7bbl98mj.svg#iconfont') format('svg');
+}
+
+.iconfont{
+  font-family: "iconfont" !important;
+  font-size: 18px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  padding-right: 10px;
+}
+
+.icon_kuaidi::before {
+    content: "\e606";
+    color: rgb(242, 102, 32)
+}
+
+.icon_kefu::before {
+    content: "\e772";
+    color: rgb(242, 102, 32)
+}
+
+.icon_youhuiquan::before {
+    content: "\e692";
+    color: rgb(242, 102, 32)
+}
+
+.icon_fapiao::before {
+    content: "\e70b";
+    color: rgb(242, 102, 32)
+}
+
+.icon_wenhao::before {
+    content: "\e665";
+    color: rgb(242, 102, 32)
+}
+
+.icon_zhiyin::before {
+    content: "\e6c5";
+    color: rgb(242, 102, 32)
+}
+
+.icon_money::before {
+    content: "\e628";
+    color: rgb(242, 102, 32)
+}
+
+.icon_right::before {
+    content: "\e6a3";
+    color: #ddd
+}
+
+.icon_back::before {
+    content: "\e679";
+}
+
+.icon_yinhangka::before {
+    content: "\e649";
+    color: rgb(242, 102, 32)
+}
+
+.icon_address::before {
+    content: "\e66f";
+}
+
+.icon_copy::before {
+    content: "\e6e5";
+}
+
+.icon_niantie::before {
+    content: "\e617";
+}
+
+.icon_remove::before {
+    content: "\e60c";
+}
+
+.icon_search::before {
+    content: "\e873"
+}
+
+.icon_bianji::before {
+    content: "\e607";
+}

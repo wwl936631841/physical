@@ -1,0 +1,40 @@
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <!-- <text class="user-motto">{{motto}}</text> -->
+    <view>
+      <text class='left'>
+        <text class='iconfont icon_youhuiquan'></text>优惠券
+      </text>
+      <text class='right'><text class='iconfont icon_right'></text></text>
+    </view>
+    <view>
+      <text class='left'>
+        <text class='iconfont icon_yinhangka'></text>微信免密支付
+      </text>
+      <text class='right'>未开通<text class='iconfont icon_right'></text></text>
+    </view>
+    <view>
+      <text class='left'>
+        <text class='iconfont icon_wenhao'></text>常见问题
+      </text>
+      <text class='right'><text class='iconfont icon_right'></text></text>
+    </view>
+    <view>
+      <text class='left'>
+        <text class='iconfont icon_kefu'></text>客服热线
+      </text>
+      <text class='right'>12315<text class='iconfont icon_right'></text></text>
+    </view>
+  </view>
+  <view class='login'>
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 登录 </button>
+    <button wx:if="{{hasUserInfo}}" open-type="loginOut" bindtap="loginOut"> 退出 </button>
+  </view>
+</view>

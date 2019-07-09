@@ -1,0 +1,41 @@
+<!--index.wxml-->
+<view>
+  <swiper class='img'>
+    <swiper-item class="item">
+      <image src='/utils/assets/image/banner.png'></image>
+    </swiper-item>
+    <swiper-item class="item">
+      <image src='/utils/assets/image/banner.png'></image>
+    </swiper-item>
+    <swiper-item class="item">
+      <image src='/utils/assets/image/banner.png'></image>
+    </swiper-item>
+    <swiper-item class="item">
+      <image src='/utils/assets/image/banner.png'></image>
+    </swiper-item>
+  </swiper>
+</view>
+<view class='list'>
+  <view class='top'>
+    <text>公告</text>
+    <text>因业务调整，快递将在2019年8月20日加大运营成本</text>
+  </view>
+  <view class='bottom'>
+    <view bindtap='delivery'>
+      <text class='iconfont icon_kuaidi'></text>
+      <text>寄快递</text>
+    </view>
+    <view>
+      <text class='iconfont icon_fapiao'></text>
+      <text>开发票</text>
+    </view>
+    <view>
+      <text class='iconfont icon_zhiyin'></text>
+      <text>寄件指引</text>
+    </view>
+    <view>
+      <text class='iconfont icon_money'></text>
+      <text>价格查询</text>
+    </view>
+  </view>
+</view>

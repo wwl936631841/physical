@@ -1,0 +1,31 @@
+<view class='search'>
+  <text class='iconfont icon_search'></text>
+  <input type="text" confirm-type="search" placeholder="姓名/电话/地址"></input>
+</view>
+<view class='massage'>
+  <view class='msg'>
+    <view class='top'>
+      <text class='privateName'>王文良</text>
+      <text class='privatePhone'>18107942475</text>
+    </view>
+    <text class='bottom'>广东省深圳市南山区南山街道高新科技园中区科技中三路5号国人通信大厦</text>
+  </view>
+  <view class='select'>
+    <checkbox-group class="sel" bindchange="checkboxChange">
+      <label class="checkbox">
+        <checkbox class='sele' checked=""/><text catchtap='default'>设为默认地址</text>
+      </label>
+    </checkbox-group>
+    <view class='right'>
+      <view class='copy'>
+        <text class='iconfont icon_copy'>复制</text>
+      </view>
+      <view class='copy'>
+        <text class='iconfont icon_bianji'>编辑</text>
+      </view>
+      <view class='copy'>
+        <text class='iconfont icon_remove'>删除</text>
+      </view>
+    </view>
+  </view>
+</view>

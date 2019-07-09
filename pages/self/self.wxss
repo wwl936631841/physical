@@ -1,0 +1,54 @@
+/* pages/self/self.wxss */
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  width: 100%;
+  margin-top: 100rpx;
+  padding: 0 20rpx;
+}
+
+.usermotto >view{
+  display: flex;
+  justify-content: space-between;
+  margin-left:40rpx;
+  box-sizing:border-box;
+  margin-right: 40rpx;
+  line-height: 88rpx;
+  border-top: 1px solid #eee;
+}
+
+.usermotto >view:last-child{
+  border-bottom: 1px solid #eee;
+}
+
+.usermotto >view .left{
+  color: rgb(10, 10, 10);
+  font-size: 32rpx;
+}
+
+.usermotto >view .right{
+  font-size: 32rpx;
+  color: rgb(92, 92, 92)
+}
+
+.login{
+  width:100%;
+  padding:40rpx;
+  box-sizing:border-box;
+}

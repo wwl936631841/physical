@@ -1,0 +1,5 @@
+<view class='null'>
+  <image src='/utils/assets/image/null.png'></image>
+  <text class='data'>暂无数据</text>
+  <text class='order' bindtap='goToOrder'>去下单</text>
+</view>

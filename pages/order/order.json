@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "订单",
+  "usingComponents": {
+    "my-all":"/pages/components/all/all",
+    "my-awaitarticle":"/pages/components/awaitArticle/awaitArticle",
+    "my-awaitmoney":"/pages/components/awaitMoney/awaitMoney",
+    "my-besend": "/pages/components/besend/besend"
+  }
+}

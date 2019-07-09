@@ -1,0 +1,102 @@
+page{
+  background-color: rgb(240, 244, 247)
+}
+
+.search{
+  background-color: #fff;
+  height: 130rpx;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative
+}
+
+.search >text{
+  position: absolute;
+  left: 50rpx;
+  color: #aaa
+}
+
+.search >input{
+  height: 72rpx;
+  background-color: rgb(240, 244, 247);
+  color: #333;
+  font-size: 32rpx;
+  width:100%;
+  margin:0 40rpx;
+  padding-left: 50rpx;
+  border-radius:16rpx;
+  line-height: 72rpx;
+}
+
+/* 个人地址 */
+.massage{
+  margin:20rpx;
+  background-color:#fff;
+  border-radius:20rpx;
+  padding:30rpx 0 0;
+}
+
+.massage .msg{
+  padding-bottom:30rpx;
+  border-bottom:2px solid #eee;
+}
+
+.massage .msg .top{
+  padding:0 30rpx; 
+}
+
+.massage .msg .bottom{
+  padding:0 30rpx;
+  display: flex;
+}
+
+.massage .msg .top .privateName{
+  font-size: 32rpx;
+  color: #333;
+  font-weight: bold;
+}
+
+.massage .msg .top .privatePhone{
+  font-size: 32rpx;
+  color: #333;
+  margin-left: 60rpx;
+  font-weight: bold;
+}
+
+.massage .msg .bottom{
+  color: #666;
+  font-size: 28rpx;
+  line-height: 36rpx;
+}
+
+.massage .select{
+  background-color: #fff;
+  line-height: 88rpx;
+  height: 88rpx;
+  border-radius:20rpx;
+  padding:0 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.massage .select >view{
+  color: #aaa;
+}
+
+.massage .select .sel{
+  font-size:32rpx;
+  color: #aaa;
+}
+
+.massage .select .sel label{
+  display: flex;
+}
+
+.massage .select .right{
+  display: flex;
+}
+
+.massage .select .right .copy text{
+  font-size: 28rpx;
+}
